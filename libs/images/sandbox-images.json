@@ -17,12 +17,12 @@
       "variant": "container",
       "summary": "Linux desktop with cua-spacesd and Chromium. Starts in seconds.",
       "spacesd": true,
-      "digest": "sha256:9ac0d6f6f7dd95392554ec95163f83c5061de3db05b64977696c78d71cd4861c",
+      "digest": "sha256:a2a731739d9f3857da573291cb4a1600bbd22240481eaba1729b9ebc19dffa44",
       "sizes": {
-        "digest": "sha256:9ac0d6f6f7dd95392554ec95163f83c5061de3db05b64977696c78d71cd4861c",
+        "digest": "sha256:a2a731739d9f3857da573291cb4a1600bbd22240481eaba1729b9ebc19dffa44",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:ec66a0c4dd6252b4dd2f76583b811dedbd6e7afdee4590ae68f11fa784f1d078", "download": 1271862910, "unpacked": 3210942464, "disk": 3210942464 },
-          { "arch": "arm64", "manifest": "sha256:27b16faba4a06bed63de94c0c9fdf5e1a4dfae1d093d02f0b71298d1c892a68a", "download": 1202068712, "unpacked": 3086297600, "disk": 3086297600 }
+          { "arch": "amd64", "manifest": "sha256:10f47233690445fabdda8092ec50256492251181e4377d0edfcca5f235d94cff", "download": 1371308467, "unpacked": 3438079488, "disk": 3438079488 },
+          { "arch": "arm64", "manifest": "sha256:a0a296cf96b09ab93eb2b33cf7566c6d6c1240c828282a77e427bb61fc9b04c0", "download": 1290535326, "unpacked": 3287269888, "disk": 3287269888 }
         ]
       },
       "browsers": ["chromium", "firefox"],
@@ -43,12 +43,12 @@
       "variant": "vm",
       "summary": "The same Linux desktop as a full VM. Lowest input latency.",
       "spacesd": true,
-      "digest": "sha256:7e88db7b2ff3392d2b4c94fa0d2de4f3429b13eb4636b0717a85a7cc7ad13dcb",
+      "digest": "sha256:fb23b77d08d62075281565418994efb7b3592b39e2ec50390faadb45689ac777",
       "sizes": {
-        "digest": "sha256:7e88db7b2ff3392d2b4c94fa0d2de4f3429b13eb4636b0717a85a7cc7ad13dcb",
+        "digest": "sha256:fb23b77d08d62075281565418994efb7b3592b39e2ec50390faadb45689ac777",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:602f3e484373a1af25314afa46b4353ccf4077211119a6b2a0d71e48b5ed6729", "download": 1303466758, "unpacked": 1317535744, "disk": 21474836480 },
-          { "arch": "arm64", "manifest": "sha256:2c4e16bd981166fd800d56a37ad4d7baf2bb97f7549e804654716e9c5a348c8d", "download": 1248704216, "unpacked": 1263534080, "disk": 21474836480 }
+          { "arch": "amd64", "manifest": "sha256:5989bd885e6fc3de010fd5ef59f4c79c09353df3c154f00434887bbf70a7c65f", "download": 1388371055, "unpacked": 1402535936, "disk": 21474836480 },
+          { "arch": "arm64", "manifest": "sha256:87a6f9eeccd07092818b2520e89291deca7a2730395c71a4fa8d0b8e4e162674", "download": 1327793713, "unpacked": 1342898176, "disk": 21474836480 }
         ]
       },
       "browsers": ["chromium", "firefox"],
@@ -69,12 +69,12 @@
       "variant": "container",
       "summary": "The minimal Linux desktop: cua-spacesd, the cua CLI and Chromium, no dev tooling. What CI and benchmarks run, and the home of an agent that makes child Spaces.",
       "spacesd": true,
-      "digest": "sha256:3bb6e503da0a90dd38cd88d664308f45f7af4661fe89f81e758c3927b6efb156",
+      "digest": "sha256:37bbc360c768ed892ea32ee007335c2b1080575f72aefb8af30287ac04ba402c",
       "sizes": {
-        "digest": "sha256:3bb6e503da0a90dd38cd88d664308f45f7af4661fe89f81e758c3927b6efb156",
+        "digest": "sha256:37bbc360c768ed892ea32ee007335c2b1080575f72aefb8af30287ac04ba402c",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:dc9ce3e4fcb3ed80b30edf8c82edbadea36bf70218e0cda6933875e16d4a0505", "download": 493478206, "unpacked": 1226743296, "disk": 1226743296 },
-          { "arch": "arm64", "manifest": "sha256:0faecc288973c3b710d39b9af18a99670daf29ba398a3c30f353d0489eea9f26", "download": 492777019, "unpacked": 1269879808, "disk": 1269879808 }
+          { "arch": "amd64", "manifest": "sha256:16f4004718d9f004c18517ffaa6443fff1981a8af0967eb9b73e4d447e684a5d", "download": 591654310, "unpacked": 1448419840, "disk": 1448419840 },
+          { "arch": "arm64", "manifest": "sha256:f32643f87b0b1f3a4c80d7e83ea369f4aa025e268c8021cef54b8f73e1a53736", "download": 596238598, "unpacked": 1464752640, "disk": 1464752640 }
         ]
       },
       "browsers": ["chromium"],
@@ -95,12 +95,12 @@
       "variant": "vm",
       "summary": "The minimal Linux desktop, with the cua CLI, as a full VM.",
       "spacesd": true,
-      "digest": "sha256:3bdeff2c03f2d345c404a7e8090142f80ad8d3ccf56fe345ac095dd3e42046c4",
+      "digest": "sha256:d6887990ced2507e3bbcc768e4ce55ab3f55efbf704c4794114f13ee33085d66",
       "sizes": {
-        "digest": "sha256:3bdeff2c03f2d345c404a7e8090142f80ad8d3ccf56fe345ac095dd3e42046c4",
+        "digest": "sha256:d6887990ced2507e3bbcc768e4ce55ab3f55efbf704c4794114f13ee33085d66",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:a6c5cfd952aa59a55fd9efa8b79c66d18e8c0b5afe71e54e0748afd3a7cf19e9", "download": 557566332, "unpacked": 565313536, "disk": 21474836480 },
-          { "arch": "arm64", "manifest": "sha256:829c1dcf57d5356425483eebf5fb6fef20f943a7690a69308dcba24925fbb78b", "download": 568038685, "unpacked": 575799296, "disk": 21474836480 }
+          { "arch": "amd64", "manifest": "sha256:17e707b0094f979b4f74faae07059fb6e4c4fd53438b0633e781096fee4ccdcc", "download": 641291321, "unpacked": 649134080, "disk": 21474836480 },
+          { "arch": "arm64", "manifest": "sha256:2f1d3faeab4a135b2d47f4ef8d67c7246a64499effd7285e11e613077826b7fe", "download": 645486111, "unpacked": 653590528, "disk": 21474836480 }
         ]
       },
       "browsers": ["chromium"],
@@ -155,11 +155,11 @@
       "variant": "vm",
       "summary": "Windows VM with cua-spacesd and cua-driver.",
       "spacesd": true,
-      "digest": "sha256:9fe49abc7619db4f85f9c69dd45c7e0f9c42d29ef60d5d9c157162b66bfab8a7",
+      "digest": "sha256:10f851e2df89ea7c835dc6712ac7a1e3cf0756699b24d67c7a2993ab0e2cf886",
       "sizes": {
-        "digest": "sha256:9fe49abc7619db4f85f9c69dd45c7e0f9c42d29ef60d5d9c157162b66bfab8a7",
+        "digest": "sha256:10f851e2df89ea7c835dc6712ac7a1e3cf0756699b24d67c7a2993ab0e2cf886",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:ac9cfa049e875768f915cb7f0df564268c9a7321523d0c52a5d16c4debfae077", "download": 6994746385, "unpacked": 7061241856, "disk": 68719476736 }
+          { "arch": "amd64", "manifest": "sha256:cdd4cd31a2b686df3c6c2e5159658b17b623a4f845d8c7b7e862d2c15104c577", "download": 5946502121, "unpacked": 6008733696, "disk": 68719476736 }
         ]
       },
       "browsers": ["edge"],
@@ -180,11 +180,11 @@
       "variant": "vm",
       "summary": "The containerDisk the Windows VM boots. Resolved from windows:2022; not offered on its own.",
       "spacesd": true,
-      "digest": "sha256:80f7789b85340b455ca6ce18974db9d7305b84c900b2bbbc9b8102f1808c32c7",
+      "digest": "sha256:071b41464db1bb614574d1bfdbb18dbb07f185669e6bcf26c844d129e652aebb",
       "sizes": {
-        "digest": "sha256:80f7789b85340b455ca6ce18974db9d7305b84c900b2bbbc9b8102f1808c32c7",
+        "digest": "sha256:071b41464db1bb614574d1bfdbb18dbb07f185669e6bcf26c844d129e652aebb",
         "platforms": [
-          { "arch": "amd64", "manifest": "sha256:ac9cfa049e875768f915cb7f0df564268c9a7321523d0c52a5d16c4debfae077", "download": 6994746385, "unpacked": 7061241856, "disk": 68719476736 }
+          { "arch": "amd64", "manifest": "sha256:cdd4cd31a2b686df3c6c2e5159658b17b623a4f845d8c7b7e862d2c15104c577", "download": 5946502121, "unpacked": 6008733696, "disk": 68719476736 }
         ]
       },
       "browsers": ["edge"],
